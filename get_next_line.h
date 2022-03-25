@@ -4,8 +4,6 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-char	*get_next_line(int fd);
-
 char	*ft_substr(char *s, unsigned int start, size_t len, int freedom);
 char	*ft_strdup(const char *s);
 size_t	ft_strlen(const char *s);
